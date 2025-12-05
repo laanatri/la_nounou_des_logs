@@ -6,11 +6,17 @@
 
 ## Statut du projet
 
-> **Étape M0 – Initialisation**
+ **Étape M0 – Initialisation**
+
+ - Définition du concept
+ - Nom du projet : `nounou-des-logs`
+ - Mise en place du repo et des prochaines étapes
+
+> **M1 – Base backend Spring Boot**
 >
-> - Définition du concept
-> - Nom du projet : `nounou-des-logs`
-> - Mise en place du repo et des prochaines étapes
+>  - Créer le projet Spring Boot (Web, Validation, MongoDB)
+>  - Ajouter un endpoint `/health`
+>  - Premier push du code dans le repo
 
 ---
 
