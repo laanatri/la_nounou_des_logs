@@ -14,7 +14,7 @@
 
 > **M1 – Base backend Spring Boot**
 >
->  - Créer le projet Spring Boot (Web, Validation, MongoDB)
+>  - Créer le projet Spring Boot
 >  - Ajouter un endpoint `/health`
 >  - Premier push du code dans le repo
 
@@ -36,4 +36,4 @@ Construire un service de logs qui permet à des applications (ÉtudIA d'abord, p
   - Docker, docker-compose
   - GitHub Actions (CI/CD)
   - Déploiement cloud
-  - Kubernetes
+  - Kubernetes (optionnel)
