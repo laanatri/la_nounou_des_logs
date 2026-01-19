@@ -28,7 +28,7 @@ Construire un service de logs qui permet à des applications (ÉtudIA d'abord, p
 
 ## Stack prévue
 
-- **Backend** : Java / Spring Boot
+- **Backend** : Java 17 / Spring Boot 4
 - **Base NoSQL** : MongoDB (stockage des logs)
 - **Base SQL (plus tard)** : PostgreSQL (applications clientes, utilisateurs, clés API…)
 - **Frontend** : Angular (UI simple pour consulter et filtrer les logs)
