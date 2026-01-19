@@ -1,4 +1,4 @@
-package com.laanatri.nounoulogs.backend.controller;
+package com.nounou.nounou.controller;
 
 import java.util.Map;
 
