@@ -6,17 +6,26 @@
 
 ## Statut du projet
 
- **Étape M0 – Initialisation**
+ **Étape n°0 – Initialisation**
 
  - Définition du concept
  - Nom du projet : `nounou-des-logs`
  - Mise en place du repo et des prochaines étapes
 
-> **M1 – Base backend Spring Boot**
->
->  - Créer le projet Spring Boot
->  - Ajouter un endpoint `/health`
->  - Premier push du code dans le repo
+ **Étape n°1 – Base backend Spring Boot**
+  - Créer le projet Spring Boot (Web, Validation, MongoDB, PostgreSQL, Security)
+  - Ajouter un endpoint `/api/health`
+
+ **Étape n°2 – Setup BDD locales**
+  - PostgreSQL via Docker Desktop
+  - MongoDB via Docker Desktop
+  - Configuration de application.properties pour connexion aux BDD
+  - Ajout de Flyway pour les migrations
+
+> **Étape n°3 – Modèle des applications monitorées**
+> - Modèle `MonitoredApp` (entité JPA pour PostgreSQL)
+> - Migration Flyway `V1__create_monitored_apps.sql`
+> - Table `monitored_apps` créée dans PostgreSQL
 
 ---
 
